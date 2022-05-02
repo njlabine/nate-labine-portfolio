@@ -5,9 +5,43 @@
 :root {
 }
 
+.body-wrapper {
+  border: 2px solid;
+  padding: 5px;
+}
+
+/* NAVIGATION */
+.nav-wrapper {
+  background-color: lightgray;
+  box-shadow: 5px 10px 8px black;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link-container > nav {
+  margin-top: 50px;
+  padding-right: 10px;
+}
+
+.nav-link-container > nav > a:hover {
+  background-color: lightblue;
+}
+
+.nav-title-container {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+/* NAVIGATION  */
+
+.about {
+  border: 2px solid;
+}
+
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: "Courier New", Courier, monospace;
   background-color: steelblue;
 }
