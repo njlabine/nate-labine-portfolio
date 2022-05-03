@@ -5,8 +5,14 @@
 :root {
 }
 
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: steelblue;
+}
+
 .body-wrapper {
-  border: 2px solid;
   padding: 5px;
 }
 
@@ -16,7 +22,6 @@
   box-shadow: 5px 10px 8px black;
   height: 75px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -36,12 +41,17 @@
 /* NAVIGATION  */
 
 .about {
-  border: 2px solid;
 }
 
-body {
-  margin: 0;
-  padding: 20px;
-  font-family: "Courier New", Courier, monospace;
-  background-color: steelblue;
+#nate-pic {
+  height: 400px;
+  width: 400px;
+}
+
+/* Media Screen */
+
+@media only screen and (max-width: 980px) {
+  body {
+    font-size: 10px;
+  }
 }
